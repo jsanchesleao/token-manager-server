@@ -12,7 +12,7 @@
     "server",
     "authorization"
   ],
-  "bin": "./runserver.js",
+  "bin": "./bin/runserver",
   "author": "Jeferson Sanches",
   "repository": "https://github.com/jsanchesleao/token-manager-server.git",
   "license": "ISC",
