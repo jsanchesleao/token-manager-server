@@ -5,4 +5,10 @@
 var TokenManagerServer = require('./server').TokenManagerServer;
 
 var server = new TokenManagerServer();
-server.listen(8000);
+
+if( process.argv[2] ){
+    server.listen( Number(process.argv[2]) );
+}
+else{
+    server.listen(8000);
+}

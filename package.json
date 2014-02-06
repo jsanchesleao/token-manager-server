@@ -12,6 +12,7 @@
     "server",
     "authorization"
   ],
+  "bin": {'./runserver.js'},
   "author": "Jeferson Sanches",
   "license": "ISC",
   "dependencies": {
