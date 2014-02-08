@@ -91,3 +91,19 @@ The server returns like this:
     "message": "Some error message here"
 }
 ```
+
+
+Standalone Server
+-----------------
+
+```bash
+bash >$ sudo npm install -g token-manager-server
+```
+
+The installation of the module gives you an path executable called token-manager-server, that simply bootstraps a server, running in a specified port.
+
+```bash
+bash >$ token-manager-server 8080
+```
+
+This command will start a server in port 8000. If no port is specified, port 3000 will be used.
