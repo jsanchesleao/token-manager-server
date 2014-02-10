@@ -12,7 +12,8 @@ function getToken(req, res){
         var token = tokenManager.get(tokenString);
         res.send( {
             tokenString: token.tokenString,
-            clientId: token.clientId
+            clientId: token.clientId,
+            roles: token.roles
         } );
 
     }
@@ -29,7 +30,8 @@ function postToken(req, res){
         tokenManager.put(token);
         res.send({
             tokenString: token.tokenString,
-            clientId: token.clientId
+            clientId: token.clientId,
+            roles: token.roles
         });
     }
     catch(err){
