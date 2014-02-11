@@ -1,7 +1,3 @@
-/**
- * Created by jeferson on 2/5/14.
- */
-
 var restify = require('restify'),
     routes = require('./routes');
 

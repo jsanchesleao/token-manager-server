@@ -46,7 +46,8 @@ Returns a json containing a token data. The format is like this:
 ```javascript
 {
     "clientId": "someclientid",
-    "tokenString": "sometokenstring"
+    "tokenString": "sometokenstring",
+    "roles": []
 }
 ```
 
@@ -68,7 +69,8 @@ The client should send an application/json data containing the following:
 {
     "clientId": "someclientid",
     "tokenString": "sometokenstring",
-    "expiration": 60000
+    "expiration": 60000,
+    "roles": ["client", "admin"]
 }
 ```
 

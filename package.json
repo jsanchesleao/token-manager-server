@@ -1,6 +1,6 @@
 {
   "name": "token-manager-server",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "HTTP Server to handle authorization tokens",
   "main": "server.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "repository": "https://github.com/jsanchesleao/token-manager-server.git",
   "license": "ISC",
   "dependencies": {
-    "token-manager": "0.1.1",
+    "token-manager": "0.2.0",
     "restify": "~2.6.1"
   }
 }

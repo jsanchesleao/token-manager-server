@@ -1,7 +1,3 @@
-/**
- * Created by jeferson on 2/5/14.
- */
-
 var tm = require('token-manager'),
     tokenManager = new tm.TokenManager(),
     restify = require('restify');
