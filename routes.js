@@ -25,9 +25,9 @@ function postToken(req, res){
         var token = new tm.Token( tokenData );
         tokenManager.put(token);
         res.send({
-            tokenString: token.tokenString,
-            clientId: token.clientId,
-            roles: token.roles
+            tokenString: token.getTokenString(),
+            clientId: token.getClientId(),
+            roles: token.getRoles()
         });
     }
     catch(err){
