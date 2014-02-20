@@ -7,9 +7,9 @@ function getToken(req, res){
     try{
         var token = tokenManager.get(tokenString);
         res.send( {
-            tokenString: token.tokenString,
-            clientId: token.clientId,
-            roles: token.roles
+            tokenString: token.getTokenString(),
+            clientId: token.getClientId(),
+            roles: token.getRoles()
         } );
 
     }

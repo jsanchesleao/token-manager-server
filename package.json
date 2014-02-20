@@ -1,6 +1,6 @@
 {
   "name": "token-manager-server",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "HTTP Server to handle authorization tokens",
   "main": "server.js",
   "scripts": {
